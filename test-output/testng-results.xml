@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="64790" started-at="2017-05-24T09:09:18Z" finished-at="2017-05-24T09:10:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="64790" started-at="2017-05-24T09:09:18Z" finished-at="2017-05-24T09:10:23Z">
+      <class name="org.fwcms.cdc.vdr.VDRManualEntryHappyFlowTest">
+        <test-method status="PASS" signature="beforeTestMethod(org.testng.ITestContext)[pri:0, instance:org.fwcms.cdc.vdr.VDRManualEntryHappyFlowTest@5d21b6e7]" name="beforeTestMethod" is-config="true" duration-ms="9044" started-at="2017-05-24T17:09:18Z" finished-at="2017-05-24T17:09:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@23786786]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="testVDRFlow(java.util.HashMap)[pri:0, instance:org.fwcms.cdc.vdr.VDRManualEntryHappyFlowTest@5d21b6e7]" name="testVDRFlow" duration-ms="55036" started-at="2017-05-24T17:09:27Z" data-provider="vdrManualEntryHappyFlow" finished-at="2017-05-24T17:10:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"agentName":"Harmony Services Co.","KDNNumber":"KDN\/16031\/FHABK5212809","passportNumber":"MMR051141"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVDRFlow -->
+        <test-method status="PASS" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:org.fwcms.cdc.vdr.VDRManualEntryHappyFlowTest@5d21b6e7]" name="afterTestMethod" is-config="true" duration-ms="682" started-at="2017-05-24T17:10:22Z" finished-at="2017-05-24T17:10:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVDRFlow status=SUCCESS method=VDRManualEntryHappyFlowTest.testVDRFlow(java.util.HashMap)[pri:0, instance:org.fwcms.cdc.vdr.VDRManualEntryHappyFlowTest@5d21b6e7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+      </class> <!-- org.fwcms.cdc.vdr.VDRManualEntryHappyFlowTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

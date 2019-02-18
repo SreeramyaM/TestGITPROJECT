@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="120.086" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\bin"/>
+    <property name="java.vm.version" value="24.65-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\WORKSPACE"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="MY"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\WORKSPACE"/>
+    <property name="java.runtime.version" value="1.7.0_67-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\QA1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Maven\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_67\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Maven\apache-maven-3.3.9\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\QA1"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="QA1"/>
+    <property name="java.class.path" value="C:\Maven\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_67\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f C:\WORKSPACE\FWCMSeVDR\pom.xml clean install -U"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_67"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_67\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Maven\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testVDRFlowForAllCountry" classname="org.fwcms.cdc.vdr.VDRAllCountrySubmissionTest" time="50.586">
+    <failure message="The system cannot find the path specified" type="java.io.IOException">java.io.IOException: The system cannot find the path specified
+	at org.fwcms.cdc.vdr.VDRAllCountrySubmissionTest.testVDRFlowForAllCountry(VDRAllCountrySubmissionTest.java:152)
+</failure>
+    <system-out><![CDATA[17-01-2017 13:33:09,830 [main] INFO [olo.util.PropertyReader]  - Loading /config/config.properties
+17-01-2017 13:33:09,831 [main] INFO [olo.util.PropertyReader]  - Loading /config/mail.properties
+17-01-2017 13:33:13,134 [main] INFO [olo.mailer.MailClient]  - Mail sent succesfully !!!
+17-01-2017 13:33:13,134 [main] INFO [olo.listeners.MailSuiteListener]  - Mail sent on suite start 'FailedTCsVDR'
+17-01-2017 13:33:17,955 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+17-01-2017 13:33:17,964 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+17-01-2017 13:33:17,972 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+17-01-2017 13:33:17,991 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+17-01-2017 13:33:17,991 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url https://fw5.fwcms.com.my/cdc
+17-01-2017 13:33:18,744 [main] INFO [olo.initiator.InitiatorUtil]  - current url is https://fwsso5.fwcms.com.my/login?service=https%3a%2f%2ffw5.fwcms.com.my%2fcdc%2f
+17-01-2017 13:33:18,745 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution started : testVDRFlowForAllCountry
+17-01-2017 13:33:19,018 [main] INFO [fwcms.util.EmployerCredentialsProp]  - Loading credentials.properties
+17-01-2017 13:33:19,019 [main] INFO [pages.cdc.LoginPage]  - typing username 'cdcser'
+17-01-2017 13:33:19,096 [main] INFO [pages.cdc.LoginPage]  - typing password 'P@ssw0rd'
+17-01-2017 13:33:19,137 [main] INFO [pages.cdc.LoginPage]  - clicking login button
+Execute with Y is/are 1
+17-01-2017 13:33:19,517 [main] INFO [cdc.vdr.HomePage]  - clicking new vdr link in sticky actions
+17-01-2017 13:33:20,550 [main] INFO [cdc.vdr.HomePage]  - clicking sticky actions
+17-01-2017 13:33:25,446 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 13:33:25,463 [main] INFO [cdc.vdr.VdrDetailsPage]  - searching kdn by kdnNumber
+17-01-2017 13:33:27,995 [main] INFO [cdc.vdr.WorkerSelectionPage]  - entering agent id and verifying agent details popup
+17-01-2017 13:33:29,094 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Waiting for the auto suggest values to appear
+17-01-2017 13:33:31,423 [main] INFO [cdc.vdr.WorkerSelectionPage]  - attaching workers
+17-01-2017 13:33:39,566 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Selecting Worker Check box
+17-01-2017 13:33:40,192 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clicking on download unmatched workers list
+17-01-2017 13:33:40,393 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Clicking Save Button
+17-01-2017 13:33:40,478 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Entering Source Country Embassy
+17-01-2017 13:33:41,672 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Clicking OK Button
+17-01-2017 13:33:41,773 [main] INFO [prop.cdc.vdrApplicationPageProp]  - Loading vdrApplicationPage.properties
+17-01-2017 13:33:41,774 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+17-01-2017 13:33:42,331 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Successfully saved the selected foreign Worker(s) list.' in status bar
+17-01-2017 13:33:42,368 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Successfully saved the selected foreign Worker(s) list.' equals to expectedText : 'Successfully saved the selected foreign Worker(s) list.' in element [[FirefoxDriver: firefox on WINDOWS (8288237b-bcf1-48b8-8fa3-80ebdebd8a6f)] -> css selector: div[class^='statusBar']]
+17-01-2017 13:33:42,368 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+17-01-2017 13:33:42,444 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+17-01-2017 13:33:43,444 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 13:33:43,459 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Clicking CONTINUE Button
+17-01-2017 13:33:44,256 [main] INFO [cdc.vdr.WorkerPointOfEntryPage]  - typing Worker Point of Entry
+17-01-2017 13:33:45,533 [main] INFO [cdc.vdr.WorkerPointOfEntryPage]  - Clicking Save Button
+17-01-2017 13:33:45,616 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+17-01-2017 13:33:46,147 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Successfully saved the selected foreign Worker(s) list.' in status bar
+17-01-2017 13:33:46,164 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Successfully saved the selected foreign Worker(s) list.' equals to expectedText : 'Successfully saved the selected foreign Worker(s) list.' in element [[FirefoxDriver: firefox on WINDOWS (8288237b-bcf1-48b8-8fa3-80ebdebd8a6f)] -> css selector: div[class^='statusBar']]
+17-01-2017 13:33:46,164 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+17-01-2017 13:33:46,231 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+17-01-2017 13:33:47,231 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 13:33:47,242 [main] INFO [cdc.vdr.WorkerPointOfEntryPage]  - Clicking CONTINUE Button
+17-01-2017 13:33:47,959 [main] INFO [cdc.vdr.SubmitVDRPage]  - Select Declaration Check Box
+17-01-2017 13:33:48,037 [main] INFO [cdc.vdr.SubmitVDRPage]  - Verifying Nationality
+17-01-2017 13:33:48,201 [main] INFO [cdc.vdr.SubmitVDRPage]  - Clicking Submit Button
+17-01-2017 13:33:48,311 [main] INFO [cdc.vdr.SubmitVDRPage]  - verifying confirmation Pop up 
+17-01-2017 13:33:48,461 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Please ensure that you have added as many Worker(s) needed.' equals to expectedText : 'Please ensure that you have added as many Worker(s) needed.' in element [[FirefoxDriver: firefox on WINDOWS (8288237b-bcf1-48b8-8fa3-80ebdebd8a6f)] -> css selector: span.confirm_alert>strong]
+17-01-2017 13:33:48,480 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Once submitted you will not be able to add any more Worker(s) in this VDR application.Click 'Yes' to proceed further or 'No' to cancel.' equals to expectedText : 'Once submitted you will not be able to add any more Worker(s) in this VDR application.Click 'Yes' to proceed further or 'No' to cancel.' in element [[FirefoxDriver: firefox on WINDOWS (8288237b-bcf1-48b8-8fa3-80ebdebd8a6f)] -> css selector: p.msg_descr]
+17-01-2017 13:33:48,579 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+17-01-2017 13:33:49,116 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'You are just step away from submitting the VDR Application!
+
+Please enter the OTP sent to your registered mobile number/email address to complete the process.' in status bar
+17-01-2017 13:33:49,137 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'You are just step away from submitting the VDR Application!
+
+Please enter the OTP sent to your registered mobile number/email address to complete the process.' equals to expectedText : 'You are just step away from submitting the VDR Application!
+
+Please enter the OTP sent to your registered mobile number/email address to complete the process.' in element [[FirefoxDriver: firefox on WINDOWS (8288237b-bcf1-48b8-8fa3-80ebdebd8a6f)] -> css selector: div[class^='statusBar']]
+17-01-2017 13:33:49,137 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+17-01-2017 13:33:49,204 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+17-01-2017 13:33:50,204 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 13:33:50,227 [main] INFO [fwcms.util.DatabaseProp]  - Loading database.properties
+953630
+17-01-2017 13:33:50,411 [main] INFO [cdc.vdr.SubmitVDRPage]  - Entering the OTP
+17-01-2017 13:33:50,457 [main] INFO [cdc.vdr.SubmitVDRPage]  - Clicking OK in Confirm OTP Pop Up
+17-01-2017 13:33:56,538 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 13:33:56,578 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Waiting for Generate Transaction ID button to be visible
+17-01-2017 13:33:57,604 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Clicking on Generate Transaction ID button
+17-01-2017 13:33:57,704 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 13:33:58,237 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Asserting the message in ITR Generation Confirmation Pop Up
+17-01-2017 13:33:58,269 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'This VDR application will be expired on the earliest workers medical report expiry or 7 days from today whichever is earlier. Please purchase the insurance immediately or your VDR application will be deleted automatically upon expired.' equals to expectedText : 'This VDR application will be expired on the earliest workers medical report expiry or 7 days from today whichever is earlier. Please purchase the insurance immediately or your VDR application will be deleted automatically upon expired.' in element [[FirefoxDriver: firefox on WINDOWS (8288237b-bcf1-48b8-8fa3-80ebdebd8a6f)] -> xpath: //div[@class='vdr_itr_generation_ack_popup popups']//span[@class='confirm_alert']/strong]
+17-01-2017 13:33:58,354 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Waiting for Generate Transaction ID button to be visible
+17-01-2017 13:33:59,375 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Clicking on Generate Transaction ID button
+17-01-2017 13:33:59,441 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Waiting for I Understand button to be visible
+17-01-2017 13:33:59,965 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Clicking on I Understand button
+17-01-2017 13:34:00,028 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - verifying the elements present in purchase insurance options pop up
+17-01-2017 13:34:00,166 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Waiting for Generate Transaction ID button to be visible
+17-01-2017 13:34:01,184 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Clicking on Generate Transaction ID button
+17-01-2017 13:34:01,354 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Waiting for I Understand button to be visible
+17-01-2017 13:34:01,410 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Clicking on I Understand button
+17-01-2017 13:34:01,486 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - selecting an insurance purchase option
+17-01-2017 13:34:01,561 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - clicking on proceed in purchase insurance options pop up
+17-01-2017 13:34:01,631 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+17-01-2017 13:34:02,160 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Insurance Transaction Reference have been successfully generated' in status bar
+17-01-2017 13:34:02,178 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Insurance Transaction Reference have been successfully generated' equals to expectedText : 'Insurance Transaction Reference have been successfully generated' in element [[FirefoxDriver: firefox on WINDOWS (8288237b-bcf1-48b8-8fa3-80ebdebd8a6f)] -> css selector: div[class^='statusBar']]
+17-01-2017 13:34:02,178 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+17-01-2017 13:34:02,243 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+17-01-2017 13:34:03,243 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 13:34:03,275 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Waiting for Proceed button to be visible
+17-01-2017 13:34:03,296 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Clicking on Proceed button
+17-01-2017 13:34:03,372 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 13:34:04,276 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - verifying if thank you message is displayed on clicking on proceed button
+Transaction_Ids_1484631249301.csv
+C:\DownloadITR\Transaction_Ids_1484631249301.csv
+renamed
+17-01-2017 13:34:09,306 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution completed : testVDRFlowForAllCountry
+17-01-2017 13:34:09,317 [main] INFO [olo.listeners.InvokedMethodListener]  - Test status : testVDRFlowForAllCountry : FAIL
+]]></system-out>
+  </testcase>
+  <testcase name="testVDRVerificationsAndValidations" classname="org.fwcms.cdc.vdr.VDRVerificationAndValidationTest" time="46.35">
+    <failure message="Element is not clickable at point (1064.5, 88.10000610351562). Other element would receive the click: &lt;div class=&quot;formErrorContent&quot;&gt;&lt;/div&gt;&#10;Command duration or timeout: 58 milliseconds&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;QA1-PC&apos;, ip: &apos;10.0.1.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;&#10;Session ID: d7905274-b3a0-429e-943b-8a27d3f32f4b&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Element is not clickable at point (1064.5, 88.10000610351562). Other element would receive the click: <div class="formErrorContent"></div>
+Command duration or timeout: 58 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: d7905274-b3a0-429e-943b-8a27d3f32f4b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.vdr.VDRVerificationAndValidationTest.testVDRVerificationsAndValidations(VDRVerificationAndValidationTest.java:89)
+]]></failure>
+    <system-out><![CDATA[17-01-2017 13:34:09,545 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to Stop WebDriver
+17-01-2017 13:34:09,929 [main] INFO [olo.initiator.DriverConfiguration]  - WebDriver Stopped
+17-01-2017 13:34:14,194 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+17-01-2017 13:34:14,311 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+17-01-2017 13:34:14,325 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+17-01-2017 13:34:14,344 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+17-01-2017 13:34:14,345 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url https://fw5.fwcms.com.my/cdc
+17-01-2017 13:34:15,119 [main] INFO [olo.initiator.InitiatorUtil]  - current url is https://fwsso5.fwcms.com.my/login?service=https%3a%2f%2ffw5.fwcms.com.my%2fcdc%2f
+17-01-2017 13:34:15,119 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution started : testVDRVerificationsAndValidations
+17-01-2017 13:34:15,358 [main] INFO [pages.cdc.LoginPage]  - typing username 'cdcser'
+17-01-2017 13:34:15,461 [main] INFO [pages.cdc.LoginPage]  - typing password 'P@ssw0rd'
+17-01-2017 13:34:15,505 [main] INFO [pages.cdc.LoginPage]  - clicking login button
+17-01-2017 13:34:15,815 [main] INFO [cdc.vdr.HomePage]  - clicking new vdr link in sticky actions
+17-01-2017 13:34:16,846 [main] INFO [cdc.vdr.HomePage]  - clicking sticky actions
+17-01-2017 13:34:21,796 [main] INFO [cdc.vdr.VdrDetailsPage]  - validating search KDN field
+17-01-2017 13:34:21,796 [main] INFO [cdc.vdr.VdrDetailsPage]  - moving focus to search KDN
+17-01-2017 13:34:21,889 [main] INFO [cdc.vdr.VdrDetailsPage]  - clicking on search button
+17-01-2017 13:34:21,991 [main] INFO [cdc.vdr.VdrDetailsPage]  - waiting for search KDN form error
+17-01-2017 13:34:22,022 [main] INFO [cdc.vdr.VdrDetailsPage]  - verifying text in search KDN form error
+17-01-2017 13:34:22,056 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* This field is required
+* Minimum 3 characters required
+* Invalid KDN Search' equals to expectedText : '* This field is required
+* Minimum 3 characters required
+* Invalid KDN Search' in element [[FirefoxDriver: firefox on WINDOWS (d7905274-b3a0-429e-943b-8a27d3f32f4b)] -> css selector: div[class^='kdn_ref_searchformError']>div.formErrorContent]
+17-01-2017 13:34:22,056 [main] INFO [cdc.vdr.VdrDetailsPage]  - sleeping for 1 sec
+17-01-2017 13:34:23,056 [main] INFO [cdc.vdr.VdrDetailsPage]  - clearing and typing kdnMinCharData 'as' in search KDN
+17-01-2017 13:34:23,104 [main] INFO [cdc.vdr.VdrDetailsPage]  - clicking on search button
+17-01-2017 13:34:23,183 [main] INFO [cdc.vdr.VdrDetailsPage]  - waiting for search KDN form error
+17-01-2017 13:34:23,195 [main] INFO [cdc.vdr.VdrDetailsPage]  - verifying text in search KDN form error
+17-01-2017 13:34:23,223 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* Minimum 3 characters required' equals to expectedText : '* Minimum 3 characters required' in element [[FirefoxDriver: firefox on WINDOWS (d7905274-b3a0-429e-943b-8a27d3f32f4b)] -> css selector: div[class^='kdn_ref_searchformError']>div.formErrorContent]
+17-01-2017 13:34:23,224 [main] INFO [cdc.vdr.VdrDetailsPage]  - sleeping for 1 sec
+17-01-2017 13:34:24,224 [main] INFO [cdc.vdr.VdrDetailsPage]  - clearing and typing kdnInvalidData 'qw#' in search KDN
+17-01-2017 13:34:24,292 [main] INFO [cdc.vdr.VdrDetailsPage]  - clicking on search button
+17-01-2017 13:34:24,360 [main] INFO [cdc.vdr.VdrDetailsPage]  - waiting for search KDN form error
+17-01-2017 13:34:24,372 [main] INFO [cdc.vdr.VdrDetailsPage]  - verifying text in search KDN form error
+17-01-2017 13:34:24,390 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* Invalid KDN Search' equals to expectedText : '* Invalid KDN Search' in element [[FirefoxDriver: firefox on WINDOWS (d7905274-b3a0-429e-943b-8a27d3f32f4b)] -> css selector: div[class^='kdn_ref_searchformError']>div.formErrorContent]
+17-01-2017 13:34:24,390 [main] INFO [cdc.vdr.VdrDetailsPage]  - sleeping for 1 sec
+17-01-2017 13:34:25,390 [main] INFO [cdc.vdr.VdrDetailsPage]  - clearing and typing kdnNoResultsData 'KDN/16032/FKAGP4551809' in search KDN
+17-01-2017 13:34:25,514 [main] INFO [cdc.vdr.VdrDetailsPage]  - clicking on search button
+17-01-2017 13:34:25,583 [main] INFO [cdc.vdr.VdrDetailsPage]  - Waiting for No Results Found message
+17-01-2017 13:34:25,622 [main] INFO [cdc.vdr.VdrDetailsPage]  - sleeping for 1 sec
+17-01-2017 13:34:26,622 [main] INFO [cdc.vdr.VdrDetailsPage]  - searching kdn by kdnNumber
+17-01-2017 13:34:29,063 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+17-01-2017 13:34:29,759 [main] INFO [cdc.vdr.WorkerSelectionPage]  - validating agent id field
+17-01-2017 13:34:29,759 [main] INFO [cdc.vdr.WorkerSelectionPage]  - moving focus to agent id
+17-01-2017 13:34:29,800 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clicking on search button
+17-01-2017 13:34:29,866 [main] INFO [cdc.vdr.WorkerSelectionPage]  - waiting for agent id form error
+17-01-2017 13:34:29,885 [main] INFO [cdc.vdr.WorkerSelectionPage]  - verifying text in agent id error
+17-01-2017 13:34:29,906 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Please enter a valid Agent ID.' equals to expectedText : 'Please enter a valid Agent ID.' in element [[FirefoxDriver: firefox on WINDOWS (d7905274-b3a0-429e-943b-8a27d3f32f4b)] -> class name: formErrorContent]
+17-01-2017 13:34:29,906 [main] INFO [cdc.vdr.WorkerSelectionPage]  - sleeping for 1 sec
+17-01-2017 13:34:30,906 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clearing and typing agentIdInvalidData 'TestAgency' in agent Id
+17-01-2017 13:34:32,001 [main] INFO [cdc.vdr.WorkerSelectionPage]  - verifying text in agent id error
+17-01-2017 13:34:33,043 [main] INFO [cdc.vdr.WorkerSelectionPage]  - verifying text in agent id error
+17-01-2017 13:34:33,099 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '*Entered Agent is Not Found' equals to expectedText : '*Entered Agent is Not Found' in element [[FirefoxDriver: firefox on WINDOWS (d7905274-b3a0-429e-943b-8a27d3f32f4b)] -> class name: formErrorContent]
+17-01-2017 13:34:33,099 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clicking on search button
+17-01-2017 13:34:33,169 [main] INFO [cdc.vdr.WorkerSelectionPage]  - verifying text in agent id error
+17-01-2017 13:34:33,182 [main] INFO [cdc.vdr.WorkerSelectionPage]  - verifying text in agent id error
+17-01-2017 13:34:33,209 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Please enter a valid Agent ID.' equals to expectedText : 'Please enter a valid Agent ID.' in element [[FirefoxDriver: firefox on WINDOWS (d7905274-b3a0-429e-943b-8a27d3f32f4b)] -> class name: formErrorContent]
+17-01-2017 13:34:33,209 [main] INFO [cdc.vdr.WorkerSelectionPage]  - sleeping for 1 sec
+17-01-2017 13:34:34,209 [main] INFO [cdc.vdr.WorkerSelectionPage]  - entering agent id and verifying agent details popup
+17-01-2017 13:34:34,324 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Waiting for the auto suggest values to appear
+17-01-2017 13:34:36,641 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clicking on search button
+17-01-2017 13:34:36,714 [main] INFO [cdc.vdr.WorkerSelectionPage]  - waiting for csv file not uploaded error
+17-01-2017 13:34:36,727 [main] INFO [cdc.vdr.WorkerSelectionPage]  - verifying text in file not uploaded error
+17-01-2017 13:34:36,746 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Please upload a valid csv file' equals to expectedText : 'Please upload a valid csv file' in element [[FirefoxDriver: firefox on WINDOWS (d7905274-b3a0-429e-943b-8a27d3f32f4b)] -> class name: formErrorContent]
+17-01-2017 13:34:36,746 [main] INFO [cdc.vdr.WorkerSelectionPage]  - uploading an image file
+17-01-2017 13:34:42,785 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clicking on search button
+17-01-2017 13:34:42,883 [main] INFO [cdc.vdr.WorkerSelectionPage]  - waiting for csv file not uploaded error
+17-01-2017 13:34:42,901 [main] INFO [cdc.vdr.WorkerSelectionPage]  - verifying text in file not uploaded error
+17-01-2017 13:34:42,923 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Please upload a valid csv file' equals to expectedText : 'Please upload a valid csv file' in element [[FirefoxDriver: firefox on WINDOWS (d7905274-b3a0-429e-943b-8a27d3f32f4b)] -> class name: formErrorContent]
+17-01-2017 13:34:47,995 [main] INFO [cdc.vdr.WorkerSelectionPage]  - selecting Enter Worker Details Manually
+17-01-2017 13:34:48,098 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clicking on search button
+17-01-2017 13:34:48,294 [main] INFO [cdc.vdr.WorkerSelectionPage]  - waiting for workers not added error
+17-01-2017 13:34:48,316 [main] INFO [cdc.vdr.WorkerSelectionPage]  - verifying text in workers not added error
+17-01-2017 13:34:48,340 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Select Add Worker(s) button and enter passport No.' equals to expectedText : 'Select Add Worker(s) button and enter passport No.' in element [[FirefoxDriver: firefox on WINDOWS (d7905274-b3a0-429e-943b-8a27d3f32f4b)] -> class name: formErrorContent]
+17-01-2017 13:34:50,414 [main] INFO [cdc.vdr.WorkerSelectionPage]  - selecting Enter Worker Details Manually
+17-01-2017 13:34:50,505 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clicking add workers
+17-01-2017 13:34:50,630 [main] INFO [cdc.vdr.WorkerSelectionPage]  - validating passport number field
+17-01-2017 13:34:50,801 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clicking on search
+17-01-2017 13:34:50,887 [main] INFO [cdc.vdr.WorkerSelectionPage]  - waiting for passport entry form error to be visible
+17-01-2017 13:34:50,904 [main] INFO [cdc.vdr.WorkerSelectionPage]  - verifying the text in passport entry form error
+17-01-2017 13:34:50,932 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Please enter at least one worker' equals to expectedText : 'Please enter at least one worker' in element [[FirefoxDriver: firefox on WINDOWS (d7905274-b3a0-429e-943b-8a27d3f32f4b)] -> class name: formErrorContent]
+17-01-2017 13:34:50,932 [main] INFO [cdc.vdr.WorkerSelectionPage]  - entering space in passport number field
+17-01-2017 13:34:50,969 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clicking on search
+17-01-2017 13:34:51,052 [main] INFO [cdc.vdr.WorkerSelectionPage]  - waiting for passport entry form error to be visible
+17-01-2017 13:34:51,072 [main] INFO [cdc.vdr.WorkerSelectionPage]  - verifying the text in passport entry form error
+17-01-2017 13:34:51,093 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* No special characters/space allowed' equals to expectedText : '* No special characters/space allowed' in element [[FirefoxDriver: firefox on WINDOWS (d7905274-b3a0-429e-943b-8a27d3f32f4b)] -> class name: formErrorContent]
+17-01-2017 13:34:51,093 [main] INFO [cdc.vdr.WorkerSelectionPage]  - sleeping for 1 second
+17-01-2017 13:34:52,093 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clearing and typing qw! in passport number field
+17-01-2017 13:34:52,191 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clicking on search
+17-01-2017 13:34:52,266 [main] INFO [cdc.vdr.WorkerSelectionPage]  - waiting for passport entry form error to be visible
+17-01-2017 13:34:52,278 [main] INFO [cdc.vdr.WorkerSelectionPage]  - verifying the text in passport entry form error
+17-01-2017 13:34:52,296 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* No special characters/space allowed' equals to expectedText : '* No special characters/space allowed' in element [[FirefoxDriver: firefox on WINDOWS (d7905274-b3a0-429e-943b-8a27d3f32f4b)] -> class name: formErrorContent]
+17-01-2017 13:34:52,624 [main] INFO [cdc.vdr.WorkerSelectionPage]  - asserting if a row gets added on clicking add more link
+17-01-2017 13:34:53,741 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'You cannot add more than 25 Worker(s)' equals to expectedText : 'You cannot add more than 25 Worker(s)' in element [[FirefoxDriver: firefox on WINDOWS (d7905274-b3a0-429e-943b-8a27d3f32f4b)] -> class name: formErrorContent]
+17-01-2017 13:34:53,815 [main] INFO [cdc.vdr.WorkerSelectionPage]  - select Enter Workers Details Manually RadioButton
+17-01-2017 13:34:53,853 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Click Add Workers LinkText
+17-01-2017 13:34:53,953 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Enter passport number PN7004
+17-01-2017 13:34:54,041 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Click Search Button 
+17-01-2017 13:34:54,118 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Selecting Worker Check box
+17-01-2017 13:34:54,761 [main] INFO [cdc.vdr.WorkerSelectionPage]  - validating search worker field
+17-01-2017 13:34:54,761 [main] INFO [cdc.vdr.WorkerSelectionPage]  - moving focus to search worker
+17-01-2017 13:34:54,802 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clicking on search link
+17-01-2017 13:34:54,877 [main] INFO [cdc.vdr.WorkerSelectionPage]  - waiting for search worker form error
+17-01-2017 13:34:54,901 [main] INFO [cdc.vdr.WorkerSelectionPage]  - verifying text in search worker error
+17-01-2017 13:34:54,926 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* Worker Name field can not be empty.
+* Minimum 3 characters required
+* No special characters allowed' equals to expectedText : '* Worker Name field can not be empty.
+* Minimum 3 characters required
+* No special characters allowed' in element [[FirefoxDriver: firefox on WINDOWS (d7905274-b3a0-429e-943b-8a27d3f32f4b)] -> class name: formErrorContent]
+17-01-2017 13:34:54,926 [main] INFO [cdc.vdr.WorkerSelectionPage]  - sleeping for 1 sec
+17-01-2017 13:34:55,926 [main] INFO [cdc.vdr.WorkerSelectionPage]  - entering space in serach worker field
+17-01-2017 13:34:55,978 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clicking on search link
+17-01-2017 13:34:56,043 [main] INFO [cdc.vdr.WorkerSelectionPage]  - waiting for search worker form error
+17-01-2017 13:34:56,062 [main] INFO [cdc.vdr.WorkerSelectionPage]  - verifying text in search worker error
+17-01-2017 13:34:56,084 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* Worker Name field can not be empty.
+* Minimum 3 characters required' equals to expectedText : '* Worker Name field can not be empty.
+* Minimum 3 characters required' in element [[FirefoxDriver: firefox on WINDOWS (d7905274-b3a0-429e-943b-8a27d3f32f4b)] -> class name: formErrorContent]
+17-01-2017 13:34:56,084 [main] INFO [cdc.vdr.WorkerSelectionPage]  - sleeping for 1 second
+17-01-2017 13:34:57,084 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clearing and typing qw in ssearch worker field
+17-01-2017 13:34:57,221 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clicking on search link
+17-01-2017 13:34:57,328 [main] INFO [cdc.vdr.WorkerSelectionPage]  - waiting for search worker form error
+17-01-2017 13:34:57,359 [main] INFO [cdc.vdr.WorkerSelectionPage]  - verifying the text in search worker form error
+17-01-2017 13:34:57,397 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* Minimum 3 characters required' equals to expectedText : '* Minimum 3 characters required' in element [[FirefoxDriver: firefox on WINDOWS (d7905274-b3a0-429e-943b-8a27d3f32f4b)] -> class name: formErrorContent]
+17-01-2017 13:34:57,397 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clearing and typing qw@ in ssearch worker field
+17-01-2017 13:34:57,491 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clicking on search link
+17-01-2017 13:34:57,563 [main] INFO [cdc.vdr.WorkerSelectionPage]  - waiting for search worker form error
+17-01-2017 13:34:57,583 [main] INFO [cdc.vdr.WorkerSelectionPage]  - verifying the text in search worker form error
+17-01-2017 13:34:57,626 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '* No special characters allowed' equals to expectedText : '* No special characters allowed' in element [[FirefoxDriver: firefox on WINDOWS (d7905274-b3a0-429e-943b-8a27d3f32f4b)] -> class name: formErrorContent]
+17-01-2017 13:34:59,662 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Clicking Save Button
+17-01-2017 13:34:59,754 [main] INFO [cdc.vdr.WorkerSelectionPage]  - validating source country embassy field
+17-01-2017 13:34:59,754 [main] INFO [cdc.vdr.WorkerSelectionPage]  - moving focus to source country embassy
+17-01-2017 13:34:59,824 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Clicking OK Button
+17-01-2017 13:34:59,977 [main] INFO [cdc.vdr.WorkerSelectionPage]  - waiting for source country embassy form error
+17-01-2017 13:35:00,023 [main] INFO [cdc.vdr.WorkerSelectionPage]  - verifying text in source country embassy error
+17-01-2017 13:35:00,071 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '*Please select valid Source Country Embassy from list' equals to expectedText : '*Please select valid Source Country Embassy from list' in element [[FirefoxDriver: firefox on WINDOWS (d7905274-b3a0-429e-943b-8a27d3f32f4b)] -> css selector: div[class*='embassy_idformError']>div.formErrorContent]
+17-01-2017 13:35:00,071 [main] INFO [cdc.vdr.WorkerSelectionPage]  - sleeping for 1 sec
+17-01-2017 13:35:01,071 [main] INFO [cdc.vdr.WorkerSelectionPage]  - typing test in source embassy field
+17-01-2017 13:35:01,159 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Clicking OK Button
+17-01-2017 13:35:01,273 [main] INFO [cdc.vdr.WorkerSelectionPage]  - waiting for source country embassy form error
+17-01-2017 13:35:01,293 [main] INFO [cdc.vdr.WorkerSelectionPage]  - verifying text in source country embassy error
+17-01-2017 13:35:01,325 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : '*Please select valid Source Country Embassy from list' equals to expectedText : '*Please select valid Source Country Embassy from list' in element [[FirefoxDriver: firefox on WINDOWS (d7905274-b3a0-429e-943b-8a27d3f32f4b)] -> css selector: div[class*='embassy_idformError']>div.formErrorContent]
+17-01-2017 13:35:01,394 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clicking on close
+17-01-2017 13:35:01,465 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution completed : testVDRVerificationsAndValidations
+17-01-2017 13:35:01,465 [main] INFO [olo.listeners.InvokedMethodListener]  - Test status : testVDRVerificationsAndValidations : FAIL
+]]></system-out>
+  </testcase>
+</testsuite>

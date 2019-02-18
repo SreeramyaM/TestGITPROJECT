@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 886.756 sec <<< FAILURE! - in TestSuite
+testVDRFlowForAllCountry(org.fwcms.cdc.vdr.VDRAllCountrySubmissionTest)  Time elapsed: 61.543 sec  <<< FAILURE!
+java.io.IOException: The system cannot find the path specified
+	at org.fwcms.cdc.vdr.VDRAllCountrySubmissionTest.testVDRFlowForAllCountry(VDRAllCountrySubmissionTest.java:152)
+
+testVDRVerificationsAndValidations(org.fwcms.cdc.vdr.VDRVerificationAndValidationTest)  Time elapsed: 46.809 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Element is not clickable at point (1064.5, 91.81666564941406). Other element would receive the click: <div class="formErrorContent"></div>
+Command duration or timeout: 65 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 39bbf688-cd62-471c-8172-df94bea3fef8
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.vdr.VDRVerificationAndValidationTest.testVDRVerificationsAndValidations(VDRVerificationAndValidationTest.java:89)
+

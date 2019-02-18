@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="vdrHappyFlow" parallel="false">
+<!--   <test name="CSV Upload Happy Flow">
+		<classes>
+			<class name="org.fwcms.cdc.vdr.VDRAllCountrySubmissionTest"></class>
+		</classes>
+	</test> -->
+	<test name="Manual Entry Happy Flow">
+		<classes>
+			<class name="org.fwcms.cdc.vdr.VDRManualEntryHappyFlowTest"></class>
+		</classes>
+	</test>
+</suite>

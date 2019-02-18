@@ -1,0 +1,54 @@
+<!DOCTYPE html><html><head><title>FailedTCsVDR Suite Results</title><meta name='viewport' content='width=device-width, initial-scale=1.0'><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css"><style type='text/css'>.ifskipped{background-color: #d6e1c9;}</style><script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script><script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script><script type='text/javascript'>$( document ).ready(function() {    $(document).on('click', '.openDialog', function () {  var errorDetails = $(this).data('showthismessage');   $('.modal-body').html( errorDetails ); });  });</script><script type='text/javascript' src='http://www.google.com/jsapi'></script><script type='text/javascript'>google.load('visualization', '1', {packages: ['corechart']}); </script><script type='text/javascript'>function drawVisualization() { var data = new google.visualization.DataTable(); data.addColumn('string', 'Topping'); data.addColumn('number', 'Slices'); data.addRows([['Pass', 0],['Fail', 2],['Skip', 0]]); new google.visualization.PieChart(document.getElementById('visualization')).draw(data,{'width':300,'height':200,slices: [{color: '#109618'}, {color:'#dc3912'}, {color: '#ff9900'}]});} google.setOnLoadCallback(drawVisualization); </script> </head><body><div class='navbar navbar-fixed-top' role='navigation'>
+<ol class='breadcrumb'><li>Suite Summary</li><li>FailedTCsVDR</li></ol></div>
+<div class='container' style='margin-top:60px;'><div class='row'><div class='col-md-4'><div class='row'><div class='col-md-12'><div class='table-responsive'><table class='table table-bordered table-condensed'><tr><th>Suite</th><td>FailedTCsVDR</td></tr><tr><th>Start Time</th><td>Tue, 17-Jan-2017 14:41:24</td></tr><tr><th>End Time</th><td>Tue, 17-Jan-2017 14:43:21</td></tr><tr><th>Time Taken</th><td>1 mins 56.8 sec</td></tr></table></div></div></div><div class='row'><div class='col-md-12'><div id='visualization'></div></div>
+</div>
+<div class='row'><div class='col-md-12'><div class='table-responsive'><table class='table table-bordered table-condensed'><thead><tr><th>Test</th><th>Pass</th><th>Fail</th><th>Skip</th><th>Total</th></tr></thead><tr><td><a href=#Test1VDR>Test1VDR</a></td><td class='success'>0</td><td class='danger'>2</td><td class='warning'>0</td><th>2</th></tr><tfoot><tr><th>Total</th><th class='success'>0</th><th class='danger'>2 (100.0%)</th><th class='warning'>0</th><th>2</th></tr></tfoot></table></div></div></div></div>
+<div class='col-md-8'><div class='row'><div class='col-md-6'><div class='table-responsive'><table class='table table-bordered'><tr><th>Test</th><td>Test1VDR</td></tr><tr><th>Start Time</th><td>Tue, 17-Jan-2017 14:41:24</td></tr><tr><th>End Time</th><td>Tue, 17-Jan-2017 14:43:21</td></tr><tr><th>Time Taken</th><td>1 mins 56.8 sec</td></tr></table></div></div></div>
+<div class='row'><div class='col-md-12'><div class='table-responsive'><table class='table table-bordered' id='Test1VDR' ><caption>Detailed report of <strong>Test1VDR</strong></caption><thead><tr><th>S.No</th><th>Test Method</th><th>Time Taken</th><th>Status</th></tr></thead><tr class="danger">
+<td><a class="testDetails" href="#"><span class="glyphicon glyphicon-chevron-right"></span>1</a></td>
+<td><div  >testVDRFlowForAllCountry</div></td>
+<td>55.1 sec</td>
+<td><a data-toggle="modal" href="#myModal" class="openDialog btn btn-sm btn-default" data-showthismessage="&lt;div class=&quot;panel-group&quot; id=&quot;accordion&quot;&gt;&lt;div class=&quot;panel panel-danger&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;&lt;h4 class=&quot;panel-title&quot;&gt;&lt;a class=&quot;accordion-toggle&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#collapse1&quot;&gt;The system cannot find the path specified&lt;/a&gt;&lt;/h4&gt;&lt;/div&gt;&lt;div id=&quot;collapse1&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;java.io.IOException: The system cannot find the path specified
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1006)
+	at org.fwcms.util.FileRename.enterITRstoExcel(FileRename.java:115)
+	at org.fwcms.cdc.vdr.VDRAllCountrySubmissionTest.testVDRFlowForAllCountry(VDRAllCountrySubmissionTest.java:152)
+... Removed 27 stack frames&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;">FAIL</a></td>
+</tr>
+<tr style="display:none"><td colspan="4"><div><dl class="dl-horizontal"><dt>Class Name</dt><dd>org.fwcms.cdc.vdr.VDRAllCountrySubmissionTest</dd><dt>Start Time</dt><dd>14:41:31</dd><dt>End Time</dt><dd>14:42:26</dd></dl></div></td></tr>
+<tr class="danger">
+<td><a class="testDetails" href="#"><span class="glyphicon glyphicon-chevron-right"></span>2</a></td>
+<td><div  >testVDRVerificationsAndValidations</div></td>
+<td>48.1 sec</td>
+<td><a data-toggle="modal" href="#myModal" class="openDialog btn btn-sm btn-default" data-showthismessage="&lt;div class=&quot;panel-group&quot; id=&quot;accordion&quot;&gt;&lt;div class=&quot;panel panel-danger&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;&lt;h4 class=&quot;panel-title&quot;&gt;&lt;a class=&quot;accordion-toggle&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#collapse1&quot;&gt;Element is not clickable at point (1064.5, 76.46665954589844). Other element would receive the click: &lt;div class=&quot;formErrorContent&quot;&gt;&lt;/div&gt;
+Command duration or timeout: 113 milliseconds
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;QA1-PC&apos;, ip: &apos;10.0.1.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;
+Session ID: a884dd87-444a-4959-b360-96830c03ecb1
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]&lt;/a&gt;&lt;/h4&gt;&lt;/div&gt;&lt;div id=&quot;collapse1&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;org.openqa.selenium.WebDriverException: Element is not clickable at point (1064.5, 76.46665954589844). Other element would receive the click: &amp;lt;div class=&amp;quot;formErrorContent&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+Command duration or timeout: 113 milliseconds
+Build info: version: &amp;apos;2.52.0&amp;apos;, revision: &amp;apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&amp;apos;, time: &amp;apos;2016-02-11 11:22:43&amp;apos;
+System info: host: &amp;apos;QA1-PC&amp;apos;, ip: &amp;apos;10.0.1.50&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.7.0_67&amp;apos;
+Session ID: a884dd87-444a-4959-b360-96830c03ecb1
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.olo.bot.BrowserBot.click(BrowserBot.java:852)
+	at org.fwcms.pages.cdc.vdr.WorkerSelectionPage.closeSourceCountryEmbassy(WorkerSelectionPage.java:1264)
+	at org.fwcms.cdc.vdr.VDRVerificationAndValidationTest.testVDRVerificationsAndValidations(VDRVerificationAndValidationTest.java:89)
+... Removed 34 stack frames&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;">FAIL</a></td>
+</tr>
+<tr style="display:none"><td colspan="4"><div><dl class="dl-horizontal"><dt>Class Name</dt><dd>org.fwcms.cdc.vdr.VDRVerificationAndValidationTest</dd><dt>Start Time</dt><dd>14:42:33</dd><dt>End Time</dt><dd>14:43:21</dd><dt>Parameter 1</dt><dd>{&quot;kdnMinCharData&quot;:&quot;as&quot;,&quot;agentIdValidData&quot;:&quot;NepalTestAgency&quot;,&quot;workerPointOfEntryInvalidData&quot;:&quot;test&quot;,&quot;passportNumberValidData&quot;:&quot;PN7004&quot;,&quot;sourceEmbassyInvalidData&quot;:&quot;test&quot;,&quot;searchWorkerSpecialCharData&quot;:&quot;qw@&quot;,&quot;kdnInvalidData&quot;:&quot;qw#&quot;,&quot;passportNumberSpaceData&quot;:&quot; &quot;,&quot;searchWorkerMinCharData&quot;:&quot;qw&quot;,&quot;kdnNoResultsData&quot;:&quot;KDN\/16032\/FKAGP4551809&quot;,&quot;kdnValidData&quot;:&quot;KDN\/16031\/FKAGP4551809&quot;,&quot;passportNumberSpecialCharData&quot;:&quot;qw!&quot;,&quot;agentIdInvalidData&quot;:&quot;TestAgency&quot;,&quot;searchWorkerSpaceData&quot;:&quot; &quot;}</dd></dl></div></td></tr>
+</table></div></div></div><hr/>
+</div>
+<div class='modal fade bs-modal-lg' id='myModal' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'><div class='modal-dialog modal-lg'><div class='modal-content'><div class='modal-header'><button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button><h4 class='modal-title' id='myModalLabel'>Error Details</h4></div><div class='modal-body'></div></div></div></div>
+</div>
+</div>
+<script type='text/javascript'>$(document).ready(function() { $('.testNameToolTip').tooltip({html: true});  $('.testDetails').click(function(event){ event.preventDefault();$(this).children('.glyphicon').toggleClass('glyphicon-chevron-down');  $(this).closest('tr').next().toggle();});});</script></body></html>

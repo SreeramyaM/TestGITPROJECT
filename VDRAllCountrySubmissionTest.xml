@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="VDRAllCountrySubmissionTest" parallel="false">
+    <test name="VDRAllCountrySubmission">
+		<classes>
+			<class name="org.fwcms.cdc.vdr.VDRAllCountrySubmissionTest"></class>
+		</classes>
+	</test>
+	 
+</suite>

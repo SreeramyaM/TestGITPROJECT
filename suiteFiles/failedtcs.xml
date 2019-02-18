@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FailedTCsVDR" parallel="false">
+    <test name="Test1VDR">
+		<classes>
+			<class name="org.fwcms.cdc.vdr.VDRVerificationAndValidationTest"></class>
+			<!-- <class name="org.fwcms.cdc.vdr.VDRVerificationAndValidationTest"></class> -->
+		<!-- 	<class name="org.fwcms.cdc.privilegeduser.ChangePasswordTest"></class>	
+			<class name="org.fwcms.tc.operator.ChangePasswordTest"></class>	
+			<class name="org.fwcms.tc.representative.ChangePasswordTest"></class>	
+			<class name="org.fwcms.tc.representative.CrudOperationsOnOperatorTest"></class>	
+			<class name="org.fwcms.cdc.privilegeduser.MultipleRolesTest"></class> -->	
+			
+		</classes>
+	</test>
+</suite>
+	
+

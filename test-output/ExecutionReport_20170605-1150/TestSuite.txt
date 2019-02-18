@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 33.873 sec <<< FAILURE! - in TestSuite
+testVDRFlow(org.fwcms.cdc.vdr.VDRManualEntryHappyFlowTest)  Time elapsed: 12.567 sec  <<< FAILURE!
+java.lang.AssertionError: Could not click Kdn number 'JKPPA/5011/FLATL242' in the list expected [true] but found [false]
+	at org.fwcms.cdc.vdr.VDRManualEntryHappyFlowTest.testVDRFlow(VDRManualEntryHappyFlowTest.java:53)
+

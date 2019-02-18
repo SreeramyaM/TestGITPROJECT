@@ -1,0 +1,38 @@
+### VDR PAGES - PROPERTIES AND VALIDATION MESSAGES ###
+
+vdrSubmissionPage= You are just step away from submitting the VDR Application!\n\nPlease enter the OTP sent to your registered mobile number/email address to complete the process.
+confirmITRGeneration=This VDR application will be expired on the earliest workers medical report expiry or 7 days from today whichever is earlier. Please purchase the insurance immediately or your VDR application will be deleted automatically upon expired.
+itrGenerationSuccessMessage=Insurance Transaction Reference IDs have been successfully generated
+
+searchKDNEmptyMessage=* This field is required\n* Minimum 3 characters required\n* Invalid KDN Search
+searchKDNMinCharDataExpectedMessage=* Minimum 3 characters required
+searchKDNInvalidDataExpectedMessage=* Invalid KDN Search
+
+agentIdInvalidMessage= Please enter a valid Agent ID.
+agentIdNotFoundMessage=*Entered Agent is Not Found
+
+csvFileNotUploadedMessage= Please upload a valid csv file
+workersNotAddedMessage= Select Add Worker(s) button and enter passport No.
+
+passportNumberEmptyMessage= Please enter at least one worker
+passportNumberSpaceSpecialCharNotAllowedMessage=* No special characters/space allowed
+workersCannotBeAddedMessage= You cannot add more than 25 Worker(s)
+
+searchWorkerEmptyMessage=* Worker Name field can not be empty.\n* Minimum 3 characters required\n* No special characters allowed
+searchWorkerSpaceOnlyMessage=* Worker Name field can not be empty.\n* Minimum 3 characters required
+searchWorkerMinCharMessage=* Minimum 3 characters required
+searchWorkerSpecialCharMessage=* No special characters allowed
+
+workerSelectionPageBottomInfoMessage=The blinking data indicate that the medical report or passport will be expiring soon for the relevant worker(s).
+workersSavedSuccessMessage=Successfully saved the selected foreign Worker(s) list.
+sourceEmbassyInvalidMessage=*Please select valid Source Country Embassy from list
+deleteWorkersSuccessMessage=Worker(s) successfully deleted
+selectWorkersToDeleteMessage=Please select one or more Worker(s) from the list to delete.
+
+regenerateOTPSuccessMessage=Enter one time password (OTP)!\n\nOTP is sent as SMS on the registered mobile number.
+otpInvalidMessage=Invalid OTP!\n\nPlease enter valid OTP
+
+workerNotFoundMessage=Worker not found in FWCMS System
+csvRecordCountExceededMessage=CSV record count more than 100
+quotaExceededMessage=Quota limit exceeded
+csvDataInvalidMessage=Data in CSV is invalid

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="181.783" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\bin"/>
+    <property name="java.vm.version" value="24.65-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="MY"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\QA1\Desktop\Ramya\Test\FWCMSeVDR"/>
+    <property name="java.runtime.version" value="1.7.0_67-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\QA1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\WORKSPACE\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5790160457423425105.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_67\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Maven\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.7.0_67\bin;C:\Program Files\Java\jre7\bin;C:\Program Files (x86)\Skype\Phone\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\QA1"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="QA1"/>
+    <property name="java.class.path" value="/C:/eclipse-jee-juno-SR1-win32-x86_64/eclipse/configuration/org.eclipse.osgi/bundles/905/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_67\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_67"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_67\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\QA1\Desktop\Ramya\Test\FWCMSeVDR\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.bootclasspath" value="/C:/eclipse-jee-juno-SR1-win32-x86_64/eclipse/configuration/org.eclipse.osgi/bundles/905/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testVDRFlowForAllCountry" classname="org.fwcms.cdc.vdr.VDRAllCountrySubmissionTest" time="72.425"/>
+  <testcase name="testVDRFlow" classname="org.fwcms.cdc.vdr.VDRManualEntryHappyFlowTest" time="78.619">
+    <failure message="Timed out after 60 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (3c82282a-4d17-457a-8a5e-13a96d14a0b3)] -&gt; css selector: div[id=&apos;save_worker_details&apos;]&gt;span:nth-child(2)&gt;span]&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;QA1-PC&apos;, ip: &apos;10.0.1.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;&#10;Session ID: 3c82282a-4d17-457a-8a5e-13a96d14a0b3&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (3c82282a-4d17-457a-8a5e-13a96d14a0b3)] -> css selector: div[id='save_worker_details']>span:nth-child(2)>span]
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 3c82282a-4d17-457a-8a5e-13a96d14a0b3
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.vdr.VDRManualEntryHappyFlowTest.testVDRFlow(VDRManualEntryHappyFlowTest.java:59)
+</failure>
+    <system-out><![CDATA[11-05-2017 16:32:23,322 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to Stop WebDriver
+11-05-2017 16:32:24,716 [main] INFO [olo.initiator.DriverConfiguration]  - WebDriver Stopped
+11-05-2017 16:32:31,724 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+11-05-2017 16:32:31,863 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+11-05-2017 16:32:31,877 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+11-05-2017 16:32:31,910 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+11-05-2017 16:32:31,910 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url https://fw2.fwcms.com.my/cdc
+11-05-2017 16:32:33,499 [main] INFO [olo.initiator.InitiatorUtil]  - current url is https://fwsso2.fwcms.com.my/login?service=https%3a%2f%2ffw2.fwcms.com.my%2fcdc%2f
+11-05-2017 16:32:33,500 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution started : testVDRFlow
+11-05-2017 16:32:33,673 [main] INFO [pages.cdc.LoginPage]  - typing username 'rahima'
+11-05-2017 16:32:33,772 [main] INFO [pages.cdc.LoginPage]  - typing password 'P@ssw0rd'
+11-05-2017 16:32:33,820 [main] INFO [pages.cdc.LoginPage]  - clicking login button
+11-05-2017 16:32:34,433 [main] INFO [cdc.vdr.HomePage]  - clicking new vdr link in sticky actions
+11-05-2017 16:32:35,771 [main] INFO [cdc.vdr.HomePage]  - clicking sticky actions
+11-05-2017 16:32:44,714 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+11-05-2017 16:32:44,736 [main] INFO [cdc.vdr.VdrDetailsPage]  - searching kdn by kdnNumber
+11-05-2017 16:32:47,122 [main] INFO [cdc.vdr.WorkerSelectionPage]  - entering agent id and verifying agent details popup
+11-05-2017 16:32:48,153 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Waiting for the auto suggest values to appear
+11-05-2017 16:32:50,607 [main] INFO [cdc.vdr.WorkerSelectionPage]  - select Enter Workers Details Manually RadioButton
+11-05-2017 16:32:50,639 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Click Add Workers LinkText
+11-05-2017 16:32:50,868 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Enter passport number PHL040687
+11-05-2017 16:32:51,059 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Click Search Button 
+11-05-2017 16:32:51,138 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Selecting Worker Check box
+11-05-2017 16:32:51,752 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Clicking Save Button
+11-05-2017 16:33:52,110 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution completed : testVDRFlow
+11-05-2017 16:33:52,110 [main] INFO [olo.listeners.InvokedMethodListener]  - Test status : testVDRFlow : FAIL
+]]></system-out>
+  </testcase>
+</testsuite>

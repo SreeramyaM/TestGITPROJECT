@@ -1,0 +1,23 @@
+<!DOCTYPE html><html><head><title>vdrHappyFlow Skipped Results</title><meta name='viewport' content='width=device-width, initial-scale=1.0'><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css"><style type='text/css'>.ifskipped{background-color: #d6e1c9;}</style><script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script><script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script><script type='text/javascript'>$( document ).ready(function() {    $(document).on('click', '.openDialog', function () {  var errorDetails = $(this).data('showthismessage');   $('.modal-body').html( errorDetails ); });  });</script></head><body><div class='navbar navbar-fixed-top' role='navigation'>
+<ol class='breadcrumb'><li><a href='../suites-summary-index.html'>Suite Summary</a></li><li><a href='suite-vdrHappyFlow-index.html'>vdrHappyFlow</a></li><li class='active'>Skip&nbsp;</li><div class='btn-group'><button type='button' class='btn btn-default btn-sm dropdown-toggle' data-toggle='dropdown'><span class='glyphicon glyphicon-filter'></span> <span class='caret'></span></button><ul class='dropdown-menu' role='menu'><li><a href='suite-vdrHappyFlow-index.html'>All</a></li></ul></div>
+</ol></div>
+<div class='container' style='margin-top:60px;'><div class='row'><div class='col-md-3'><div class='row'><div class='col-md-12'><div class='table-responsive'><table class='table table-bordered table-condensed'><tr><th>Suite</th><td>vdrHappyFlow</td></tr></table></div></div></div><div class='row'><div class='col-md-12'><div class='table-responsive'><table class='table table-bordered table-condensed'><thead><tr><th>Test</th><th>Skip</th></tr></thead><tr><td><a href=#Manual-Entry-Happy-Flow>Manual Entry Happy Flow</a></td><td class='warning'>1</td></tr><tfoot><tr><th>Total</th><th class='warning'>1</th></tr></tfoot></table></div></div></div></div>
+<div class='col-md-9'><div class='row'><div class='col-md-12'><div class='table-responsive'><table class='table table-bordered' id='Manual-Entry-Happy-Flow' ><caption>Detailed report of <strong>Manual Entry Happy Flow</strong></caption><thead><tr><th>S.No</th><th>Test Method</th><th>Time Taken</th><th>Status</th></tr></thead><tr class="warning">
+<td><a class="testDetails" href="#"><span class="glyphicon glyphicon-chevron-right"></span>1</a></td>
+<td><div  >testVDRFlow</div></td>
+<td>0 ms</td>
+<td><a data-toggle="modal" href="#myModal" class="openDialog btn btn-sm btn-default" data-showthismessage="&lt;div class=&quot;panel-group&quot; id=&quot;accordion&quot;&gt;&lt;div class=&quot;panel panel-danger&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;&lt;h4 class=&quot;panel-title&quot;&gt;&lt;a class=&quot;accordion-toggle&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#collapse1&quot;&gt;Unexpected token LEFT SQUARE([) at position 1.&lt;/a&gt;&lt;/h4&gt;&lt;/div&gt;&lt;div id=&quot;collapse1&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;java.lang.RuntimeException: Unexpected token LEFT SQUARE([) at position 1.
+Caused by: Unexpected token LEFT SQUARE([) at position 1.
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:257)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:92)
+	at org.fwcms.cdc.vdr.VDRManualEntryHappyFlowTest.vdrApplicationData(VDRManualEntryHappyFlowTest.java:31)
+	... 23 more
+... Removed 30 stack frames&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;">SKIP</a></td>
+</tr>
+<tr style="display:none"><td colspan="4"><div><dl class="dl-horizontal"><dt>Class Name</dt><dd>org.fwcms.cdc.vdr.VDRManualEntryHappyFlowTest</dd><dt>Start Time</dt><dd>10:35:51</dd><dt>End Time</dt><dd>10:35:51</dd></dl></div></td></tr>
+</table></div></div></div><hr/>
+</div>
+<div class='modal fade bs-modal-lg' id='myModal' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'><div class='modal-dialog modal-lg'><div class='modal-content'><div class='modal-header'><button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button><h4 class='modal-title' id='myModalLabel'>Error Details</h4></div><div class='modal-body'></div></div></div></div>
+</div>
+</div>
+<script type='text/javascript'>$(document).ready(function() { $('.testNameToolTip').tooltip({html: true});  $('.testDetails').click(function(event){ event.preventDefault();$(this).children('.glyphicon').toggleClass('glyphicon-chevron-down');  $(this).closest('tr').next().toggle();});});</script></body></html>

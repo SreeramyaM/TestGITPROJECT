@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2,214.257" tests="26" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\bin"/>
+    <property name="java.vm.version" value="24.65-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="MY"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\WORKSPACE\FWCMSeVDR"/>
+    <property name="java.runtime.version" value="1.7.0_67-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\QA1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\WORKSPACE\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3287105580556229690.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_67\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Maven\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.7.0_67\bin;C:\Program Files\Java\jre7\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\QA1"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="QA1"/>
+    <property name="java.class.path" value="/C:/eclipse-jee-juno-SR1-win32-x86_64/eclipse/configuration/org.eclipse.osgi/bundles/905/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_67\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_67"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_67\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\WORKSPACE\FWCMSeVDR\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.bootclasspath" value="/C:/eclipse-jee-juno-SR1-win32-x86_64/eclipse/configuration/org.eclipse.osgi/bundles/905/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testVDRFlowForAllCountry" classname="org.fwcms.cdc.vdr.VDRAllCountrySubmissionTest" time="122.89"/>
+  <testcase name="testVDRFlow" classname="org.fwcms.cdc.vdr.VDRManualEntryHappyFlowTest" time="144.393">
+    <failure message="Timed out after 60 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (9ba5048d-5d75-4fcc-b5ce-e81c906f5825)] -&gt; css selector: div[id=&apos;save_worker_details&apos;]&gt;span:nth-child(2)&gt;span]&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;QA1-PC&apos;, ip: &apos;10.0.1.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;&#10;Session ID: 9ba5048d-5d75-4fcc-b5ce-e81c906f5825&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (9ba5048d-5d75-4fcc-b5ce-e81c906f5825)] -> css selector: div[id='save_worker_details']>span:nth-child(2)>span]
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 9ba5048d-5d75-4fcc-b5ce-e81c906f5825
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.vdr.VDRManualEntryHappyFlowTest.testVDRFlow(VDRManualEntryHappyFlowTest.java:59)
+</failure>
+    <system-out><![CDATA[28-02-2017 10:59:18,352 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to Stop WebDriver
+28-02-2017 10:59:19,473 [main] INFO [olo.initiator.DriverConfiguration]  - WebDriver Stopped
+28-02-2017 10:59:25,186 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+28-02-2017 10:59:25,341 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+28-02-2017 10:59:25,353 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+28-02-2017 10:59:25,372 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+28-02-2017 10:59:25,372 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url https://fw5.fwcms.com.my/cdc
+28-02-2017 10:59:26,267 [main] INFO [olo.initiator.InitiatorUtil]  - current url is https://fwsso5.fwcms.com.my/login?service=https%3a%2f%2ffw5.fwcms.com.my%2fcdc%2f
+28-02-2017 10:59:26,268 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution started : testVDRFlow
+28-02-2017 10:59:26,452 [main] INFO [pages.cdc.LoginPage]  - typing username 'cdcser'
+28-02-2017 10:59:26,550 [main] INFO [pages.cdc.LoginPage]  - typing password 'P@ssw0rd'
+28-02-2017 10:59:26,593 [main] INFO [pages.cdc.LoginPage]  - clicking login button
+28-02-2017 10:59:26,964 [main] INFO [cdc.vdr.HomePage]  - clicking new vdr link in sticky actions
+28-02-2017 10:59:28,281 [main] INFO [cdc.vdr.HomePage]  - clicking sticky actions
+28-02-2017 11:00:02,907 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+28-02-2017 11:00:02,922 [main] INFO [cdc.vdr.VdrDetailsPage]  - searching kdn by kdnNumber
+28-02-2017 11:00:05,404 [main] INFO [cdc.vdr.WorkerSelectionPage]  - entering agent id and verifying agent details popup
+28-02-2017 11:00:47,001 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Waiting for the auto suggest values to appear
+28-02-2017 11:00:49,457 [main] INFO [cdc.vdr.WorkerSelectionPage]  - select Enter Workers Details Manually RadioButton
+28-02-2017 11:00:49,485 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Click Add Workers LinkText
+28-02-2017 11:00:49,699 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Enter passport number PN7004
+28-02-2017 11:00:49,896 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Click Search Button 
+28-02-2017 11:00:49,972 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Selecting Worker Check box
+28-02-2017 11:00:50,571 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Clicking Save Button
+28-02-2017 11:01:50,651 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution completed : testVDRFlow
+28-02-2017 11:01:50,651 [main] INFO [olo.listeners.InvokedMethodListener]  - Test status : testVDRFlow : FAIL
+]]></system-out>
+  </testcase>
+  <testcase name="fetchApplicationIDUsingPassportNumberAndAbortItTest" classname="org.fwcms.cdc.vdr.FetchApplicationIDUsingPassportNumberAndAbortIt" time="0.029"/>
+  <testcase name="fetchApplicationIDUsingPassportNumberAndAbortItTest" classname="org.fwcms.cdc.vdr.FetchApplicationIDUsingPassportNumberAndAbortIt" time="0.018"/>
+  <testcase name="fetchApplicationIDUsingPassportNumberAndAbortItTest" classname="org.fwcms.cdc.vdr.FetchApplicationIDUsingPassportNumberAndAbortIt" time="0.022"/>
+  <testcase name="fetchApplicationIDUsingPassportNumberAndAbortItTest" classname="org.fwcms.cdc.vdr.FetchApplicationIDUsingPassportNumberAndAbortIt" time="0.021"/>
+  <testcase name="fetchApplicationIDUsingPassportNumberAndAbortItTest" classname="org.fwcms.cdc.vdr.FetchApplicationIDUsingPassportNumberAndAbortIt" time="0.017"/>
+  <testcase name="testAbortFunctionalityWorkerSelectionPage" classname="org.fwcms.cdc.vdr.VDRAbortFunctionalityTest" time="89.129"/>
+  <testcase name="testAbortFunctionalityWorkerPointOfEntryPage" classname="org.fwcms.cdc.vdr.VDRAbortFunctionalityTest" time="166.541">
+    <failure message="Timed out after 60 seconds waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.className: kdn_details_list&apos;&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;QA1-PC&apos;, ip: &apos;10.0.1.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;&#10;Session ID: 0cabc52c-c4cf-482e-a8f0-14e8233f525c&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: kdn_details_list'
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 0cabc52c-c4cf-482e-a8f0-14e8233f525c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.vdr.VDRAbortFunctionalityTest.testAbortFunctionalityWorkerPointOfEntryPage(VDRAbortFunctionalityTest.java:118)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"class name","selector":"kdn_details_list"}
+Command duration or timeout: 60.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=class name, value=kdn_details_list}
+Session ID: 0cabc52c-c4cf-482e-a8f0-14e8233f525c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.vdr.VDRAbortFunctionalityTest.testAbortFunctionalityWorkerPointOfEntryPage(VDRAbortFunctionalityTest.java:118)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"class name","selector":"kdn_details_list"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+</failure>
+    <system-out><![CDATA[28-02-2017 11:03:40,216 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to Stop WebDriver
+28-02-2017 11:03:40,824 [main] INFO [olo.initiator.DriverConfiguration]  - WebDriver Stopped
+28-02-2017 11:03:45,917 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+28-02-2017 11:03:45,923 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+28-02-2017 11:03:45,928 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+28-02-2017 11:03:45,943 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+28-02-2017 11:03:45,943 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url https://fw5.fwcms.com.my/cdc
+28-02-2017 11:03:46,790 [main] INFO [olo.initiator.InitiatorUtil]  - current url is https://fwsso5.fwcms.com.my/login?service=https%3a%2f%2ffw5.fwcms.com.my%2fcdc%2f
+28-02-2017 11:03:46,791 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution started : testAbortFunctionalityWorkerPointOfEntryPage
+28-02-2017 11:03:46,950 [main] INFO [pages.cdc.LoginPage]  - typing username 'cdcser'
+28-02-2017 11:03:47,064 [main] INFO [pages.cdc.LoginPage]  - typing password 'P@ssw0rd'
+28-02-2017 11:03:47,107 [main] INFO [pages.cdc.LoginPage]  - clicking login button
+28-02-2017 11:03:47,508 [main] INFO [cdc.vdr.HomePage]  - clicking new vdr link in sticky actions
+28-02-2017 11:03:48,541 [main] INFO [cdc.vdr.HomePage]  - clicking sticky actions
+28-02-2017 11:04:21,786 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+28-02-2017 11:04:21,815 [main] INFO [cdc.vdr.VdrDetailsPage]  - searching kdn by kdnNumber
+28-02-2017 11:04:24,375 [main] INFO [cdc.vdr.WorkerSelectionPage]  - entering agent id and verifying agent details popup
+28-02-2017 11:04:25,243 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Waiting for the auto suggest values to appear
+28-02-2017 11:04:27,568 [main] INFO [cdc.vdr.WorkerSelectionPage]  - select Enter Workers Details Manually RadioButton
+28-02-2017 11:04:27,594 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Click Add Workers LinkText
+28-02-2017 11:04:27,817 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Enter passport number PN7004
+28-02-2017 11:04:28,015 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Click Search Button 
+28-02-2017 11:04:28,087 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Selecting Worker Check box
+28-02-2017 11:04:28,711 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Clicking Save Button
+28-02-2017 11:04:28,791 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Entering Source Country Embassy
+28-02-2017 11:04:29,985 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Clicking OK Button
+28-02-2017 11:04:30,076 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+28-02-2017 11:04:30,623 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Successfully saved the selected foreign Worker(s) list.' in status bar
+28-02-2017 11:04:30,643 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Successfully saved the selected foreign Worker(s) list.' equals to expectedText : 'Successfully saved the selected foreign Worker(s) list.' in element [[FirefoxDriver: firefox on WINDOWS (0cabc52c-c4cf-482e-a8f0-14e8233f525c)] -> css selector: div[class^='statusBar']]
+28-02-2017 11:04:30,643 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+28-02-2017 11:04:30,723 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+28-02-2017 11:04:31,723 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+28-02-2017 11:04:31,754 [main] INFO [cdc.vdr.WorkerSelectionPage]  - waiting for application id to be visible
+28-02-2017 11:04:31,784 [main] INFO [cdc.vdr.WorkerSelectionPage]  - retieving the application id
+28-02-2017 11:04:31,794 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Clicking CONTINUE Button
+28-02-2017 11:04:32,594 [main] INFO [cdc.vdr.WorkerPointOfEntryPage]  - Clicking Abort Button
+28-02-2017 11:04:32,719 [main] INFO [cdc.vdr.WorkerPointOfEntryPage]  - verifying Abort Button Pop up 
+28-02-2017 11:04:32,869 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Are you sure that you want to abort this VDR application?' equals to expectedText : 'Are you sure that you want to abort this VDR application?' in element [[FirefoxDriver: firefox on WINDOWS (0cabc52c-c4cf-482e-a8f0-14e8233f525c)] -> css selector: span.confirm_alert>strong]
+28-02-2017 11:04:32,885 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Click 'Yes' to proceed further or 'No' to cancel. Once aborted, you may have to start with 'Create New' VDR Application.' equals to expectedText : 'Click 'Yes' to proceed further or 'No' to cancel. Once aborted, you may have to start with 'Create New' VDR Application.' in element [[FirefoxDriver: firefox on WINDOWS (0cabc52c-c4cf-482e-a8f0-14e8233f525c)] -> css selector: p.msg_descr]
+28-02-2017 11:04:32,966 [main] INFO [cdc.vdr.WorkerPointOfEntryPage]  - Clicking Abort Button
+28-02-2017 11:04:33,055 [main] INFO [cdc.vdr.WorkerPointOfEntryPage]  - Clicking Abort YES Button
+28-02-2017 11:04:33,175 [main] INFO [cdc.vdr.VdrDetailsPage]  - verifying if kdn list is visible
+28-02-2017 11:06:33,332 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution completed : testAbortFunctionalityWorkerPointOfEntryPage
+28-02-2017 11:06:33,332 [main] INFO [olo.listeners.InvokedMethodListener]  - Test status : testAbortFunctionalityWorkerPointOfEntryPage : FAIL
+]]></system-out>
+  </testcase>
+  <testcase name="testAbortFunctionalitySubmitVDRPage" classname="org.fwcms.cdc.vdr.VDRAbortFunctionalityTest" time="99.653"/>
+  <testcase name="testAbortFunctionalityPurchaseInsurancePage" classname="org.fwcms.cdc.vdr.VDRAbortFunctionalityTest" time="102.214"/>
+  <testcase name="verifyClearListFunctionalityInWorkerSelection" classname="org.fwcms.cdc.vdr.VDRClearListFunctionalityTest" time="190.181">
+    <failure message="Timed out after 60 seconds waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.className: kdn_details_list&apos;&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;QA1-PC&apos;, ip: &apos;10.0.1.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;&#10;Session ID: ba9a2823-8928-4b75-b4d7-7a340f840729&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: kdn_details_list'
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: ba9a2823-8928-4b75-b4d7-7a340f840729
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.vdr.VDRClearListFunctionalityTest.verifyClearListFunctionalityInWorkerSelection(VDRClearListFunctionalityTest.java:67)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"class name","selector":"kdn_details_list"}
+Command duration or timeout: 60.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+*** Element info: {Using=class name, value=kdn_details_list}
+Session ID: ba9a2823-8928-4b75-b4d7-7a340f840729
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.vdr.VDRClearListFunctionalityTest.verifyClearListFunctionalityInWorkerSelection(VDRClearListFunctionalityTest.java:67)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"class name","selector":"kdn_details_list"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+</failure>
+    <system-out><![CDATA[28-02-2017 11:10:08,471 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to Stop WebDriver
+28-02-2017 11:10:09,149 [main] INFO [olo.initiator.DriverConfiguration]  - WebDriver Stopped
+28-02-2017 11:10:14,270 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+28-02-2017 11:10:14,368 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+28-02-2017 11:10:14,379 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+28-02-2017 11:10:14,398 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+28-02-2017 11:10:14,398 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url https://fw5.fwcms.com.my/cdc
+28-02-2017 11:10:15,605 [main] INFO [olo.initiator.InitiatorUtil]  - current url is https://fwsso5.fwcms.com.my/login?service=https%3a%2f%2ffw5.fwcms.com.my%2fcdc%2f
+28-02-2017 11:10:15,606 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution started : verifyClearListFunctionalityInWorkerSelection
+28-02-2017 11:10:15,789 [main] INFO [pages.cdc.LoginPage]  - typing username 'cdcser'
+28-02-2017 11:10:15,880 [main] INFO [pages.cdc.LoginPage]  - typing password 'P@ssw0rd'
+28-02-2017 11:10:15,930 [main] INFO [pages.cdc.LoginPage]  - clicking login button
+28-02-2017 11:10:16,376 [main] INFO [cdc.vdr.HomePage]  - clicking new vdr link in sticky actions
+28-02-2017 11:10:17,412 [main] INFO [cdc.vdr.HomePage]  - clicking sticky actions
+28-02-2017 11:10:56,112 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+28-02-2017 11:10:56,152 [main] INFO [cdc.vdr.VdrDetailsPage]  - searching kdn by kdnNumber
+28-02-2017 11:10:58,719 [main] INFO [cdc.vdr.WorkerSelectionPage]  - entering agent id and verifying agent details popup
+28-02-2017 11:10:59,580 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Waiting for the auto suggest values to appear
+28-02-2017 11:11:02,438 [main] INFO [cdc.vdr.WorkerSelectionPage]  - attaching workers
+28-02-2017 11:11:10,581 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Selecting Worker Check box
+28-02-2017 11:11:11,222 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Clicking Save Button
+28-02-2017 11:11:11,342 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Entering Source Country Embassy
+28-02-2017 11:11:12,582 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Clicking OK Button
+28-02-2017 11:11:12,693 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+28-02-2017 11:11:13,233 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Successfully saved the selected foreign Worker(s) list.' in status bar
+28-02-2017 11:11:13,253 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Successfully saved the selected foreign Worker(s) list.' equals to expectedText : 'Successfully saved the selected foreign Worker(s) list.' in element [[FirefoxDriver: firefox on WINDOWS (ba9a2823-8928-4b75-b4d7-7a340f840729)] -> css selector: div[class^='statusBar']]
+28-02-2017 11:11:13,253 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+28-02-2017 11:11:13,313 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+28-02-2017 11:11:14,313 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+28-02-2017 11:11:14,334 [main] INFO [cdc.vdr.WorkerSelectionPage]  - waiting for application id to be visible
+28-02-2017 11:11:14,344 [main] INFO [cdc.vdr.WorkerSelectionPage]  - retieving the application id
+BPA/FWCMS/GBBE1111141501
+28-02-2017 11:11:14,364 [main] INFO [cdc.vdr.WorkerSelectionPage]  - verifying clear list link functionality
+28-02-2017 11:11:14,624 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Are you sure that you want to clear the list?' equals to expectedText : 'Are you sure that you want to clear the list?' in element [[FirefoxDriver: firefox on WINDOWS (ba9a2823-8928-4b75-b4d7-7a340f840729)] -> xpath: //div[@id='clearUnsavedWorkersPop']//span[@class='confirm_alert']/strong]
+28-02-2017 11:11:14,654 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Click 'Yes' to proceed further or 'No' to cancel. Once cleared you may have to upload the .CSV file/enter worker details manually.' equals to expectedText : 'Click 'Yes' to proceed further or 'No' to cancel. Once cleared you may have to upload the .CSV file/enter worker details manually.' in element [[FirefoxDriver: firefox on WINDOWS (ba9a2823-8928-4b75-b4d7-7a340f840729)] -> xpath: //div[@id='clearUnsavedWorkersPop']//span/p]
+28-02-2017 11:11:25,062 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Clicking Abort Button
+28-02-2017 11:11:25,163 [main] INFO [cdc.vdr.WorkerSelectionPage]  - verifying Abort Button Pop up 
+28-02-2017 11:11:25,203 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Are you sure that you want to abort this VDR application?' equals to expectedText : 'Are you sure that you want to abort this VDR application?' in element [[FirefoxDriver: firefox on WINDOWS (ba9a2823-8928-4b75-b4d7-7a340f840729)] -> css selector: span.confirm_alert>strong]
+28-02-2017 11:11:25,233 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Click 'Yes' to proceed further or 'No' to cancel. Once aborted, you may have to start with 'Create New' VDR Application.' equals to expectedText : 'Click 'Yes' to proceed further or 'No' to cancel. Once aborted, you may have to start with 'Create New' VDR Application.' in element [[FirefoxDriver: firefox on WINDOWS (ba9a2823-8928-4b75-b4d7-7a340f840729)] -> css selector: p.msg_descr]
+28-02-2017 11:11:25,333 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Clicking Abort Button
+28-02-2017 11:11:25,458 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Clicking Abort YES Button
+28-02-2017 11:11:25,548 [main] INFO [cdc.vdr.VdrDetailsPage]  - verifying if kdn list is visible
+28-02-2017 11:13:25,787 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution completed : verifyClearListFunctionalityInWorkerSelection
+28-02-2017 11:13:25,787 [main] INFO [olo.listeners.InvokedMethodListener]  - Test status : verifyClearListFunctionalityInWorkerSelection : FAIL
+]]></system-out>
+  </testcase>
+  <testcase name="testLandingPageOfAddMoreWorkersLink" classname="org.fwcms.cdc.vdr.VerifyLandingPageOfAddMoreWorkersLinkTest" time="54.946"/>
+  <testcase name="verifyDeleteWorkersFunctionality" classname="org.fwcms.cdc.vdr.VDRDeleteWorkersFunctionalityTest" time="66.97"/>
+  <testcase name="testEditSourceCountryEmbassy" classname="org.fwcms.cdc.vdr.VDREditSourceCountryEmbassyFunctionalityTest" time="75.155"/>
+  <testcase name="testPreviousButtonFunctionality" classname="org.fwcms.cdc.vdr.VDRPreviousButtonFunctionalityTest" time="183.831"/>
+  <testcase name="testAccessToPrevioulsySavedApplication" classname="org.fwcms.cdc.vdr.VerifyAccessToPreviouslySavedApplicationTest" time="53.291"/>
+  <testcase name="verifyVDRPageElements" classname="org.fwcms.cdc.vdr.VerifyElementsPresentInVDRPagesTest" time="79.811"/>
+  <testcase name="testVDRVerificationsAndValidations" classname="org.fwcms.cdc.vdr.VDRVerificationAndValidationTest" time="98.816"/>
+  <testcase name="testCSVUploadOfMoreThan100Workers" classname="org.fwcms.cdc.vdr.VerifyCSVUploadOfMoreThan100WorkersTest" time="47.801"/>
+  <testcase name="testCSVUploadWorkersVerification" classname="org.fwcms.cdc.vdr.VerifyInvalidDataCSVUploadTest" time="83.418">
+    <failure message="Timed out after 60 seconds waiting for condition to not be valid: visibility of [[FirefoxDriver: firefox on WINDOWS (f6dda575-c51a-4348-a333-2ffe2d624e6d)] -&gt; id: overlay]&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;QA1-PC&apos;, ip: &apos;10.0.1.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;&#10;Session ID: f6dda575-c51a-4348-a333-2ffe2d624e6d&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for condition to not be valid: visibility of [[FirefoxDriver: firefox on WINDOWS (f6dda575-c51a-4348-a333-2ffe2d624e6d)] -> id: overlay]
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: f6dda575-c51a-4348-a333-2ffe2d624e6d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.vdr.VerifyInvalidDataCSVUploadTest.testCSVUploadWorkersVerification(VerifyInvalidDataCSVUploadTest.java:50)
+</failure>
+    <system-out><![CDATA[28-02-2017 11:25:29,731 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to Stop WebDriver
+28-02-2017 11:25:30,211 [main] INFO [olo.initiator.DriverConfiguration]  - WebDriver Stopped
+28-02-2017 11:25:34,753 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+28-02-2017 11:25:34,872 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+28-02-2017 11:25:34,881 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+28-02-2017 11:25:34,896 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+28-02-2017 11:25:34,896 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url https://fw5.fwcms.com.my/cdc
+28-02-2017 11:25:35,679 [main] INFO [olo.initiator.InitiatorUtil]  - current url is https://fwsso5.fwcms.com.my/login?service=https%3a%2f%2ffw5.fwcms.com.my%2fcdc%2f
+28-02-2017 11:25:35,679 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution started : testCSVUploadWorkersVerification
+28-02-2017 11:25:35,858 [main] INFO [pages.cdc.LoginPage]  - typing username 'cdcser'
+28-02-2017 11:25:35,959 [main] INFO [pages.cdc.LoginPage]  - typing password 'P@ssw0rd'
+28-02-2017 11:25:36,000 [main] INFO [pages.cdc.LoginPage]  - clicking login button
+28-02-2017 11:25:36,347 [main] INFO [cdc.vdr.HomePage]  - clicking new vdr link in sticky actions
+28-02-2017 11:25:37,378 [main] INFO [cdc.vdr.HomePage]  - clicking sticky actions
+28-02-2017 11:25:58,666 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+28-02-2017 11:26:59,097 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution completed : testCSVUploadWorkersVerification
+28-02-2017 11:26:59,097 [main] INFO [olo.listeners.InvokedMethodListener]  - Test status : testCSVUploadWorkersVerification : FAIL
+]]></system-out>
+  </testcase>
+  <testcase name="testCSVUploadWorkersVerification" classname="org.fwcms.cdc.vdr.VerifyCSVUploadWorkersVerificationTest" time="78.579"/>
+  <testcase name="testQuotaLimitExceededError" classname="org.fwcms.cdc.vdr.VerifyQuotaExceededTest" time="79.22">
+    <failure message="Timed out after 60 seconds waiting for condition to not be valid: visibility of [[FirefoxDriver: firefox on WINDOWS (2744d489-08c7-4a22-92b2-cb67f556ecf9)] -&gt; id: overlay]&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;QA1-PC&apos;, ip: &apos;10.0.1.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;&#10;Session ID: 2744d489-08c7-4a22-92b2-cb67f556ecf9&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Timed out after 60 seconds waiting for condition to not be valid: visibility of [[FirefoxDriver: firefox on WINDOWS (2744d489-08c7-4a22-92b2-cb67f556ecf9)] -> id: overlay]
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'QA1-PC', ip: '10.0.1.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 2744d489-08c7-4a22-92b2-cb67f556ecf9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0}]
+	at org.fwcms.cdc.vdr.VerifyQuotaExceededTest.testQuotaLimitExceededError(VerifyQuotaExceededTest.java:51)
+</failure>
+    <system-out><![CDATA[28-02-2017 11:28:24,369 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to Stop WebDriver
+28-02-2017 11:28:24,699 [main] INFO [olo.initiator.DriverConfiguration]  - WebDriver Stopped
+28-02-2017 11:28:29,393 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+28-02-2017 11:28:29,546 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+28-02-2017 11:28:29,555 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+28-02-2017 11:28:29,573 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+28-02-2017 11:28:29,573 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url https://fw5.fwcms.com.my/cdc
+28-02-2017 11:28:30,336 [main] INFO [olo.initiator.InitiatorUtil]  - current url is https://fwsso5.fwcms.com.my/login?service=https%3a%2f%2ffw5.fwcms.com.my%2fcdc%2f
+28-02-2017 11:28:30,336 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution started : testQuotaLimitExceededError
+28-02-2017 11:28:30,558 [main] INFO [pages.cdc.LoginPage]  - typing username 'cdcser'
+28-02-2017 11:28:30,647 [main] INFO [pages.cdc.LoginPage]  - typing password 'P@ssw0rd'
+28-02-2017 11:28:30,688 [main] INFO [pages.cdc.LoginPage]  - clicking login button
+28-02-2017 11:28:31,038 [main] INFO [cdc.vdr.HomePage]  - clicking new vdr link in sticky actions
+28-02-2017 11:28:32,711 [main] INFO [cdc.vdr.HomePage]  - clicking sticky actions
+28-02-2017 11:28:49,102 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+28-02-2017 11:29:49,556 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution completed : testQuotaLimitExceededError
+28-02-2017 11:29:49,556 [main] INFO [olo.listeners.InvokedMethodListener]  - Test status : testQuotaLimitExceededError : FAIL
+]]></system-out>
+  </testcase>
+  <testcase name="vdrWorkerDetailsErrorMessageValidationTest" classname="org.fwcms.cdc.vdr.VDRWorkerDetailsErrorMessageValidationTest" time="117.639"/>
+  <testcase name="testSearchVDRFlow" classname="org.fwcms.cdc.vdr.SearchVDRTest" time="16.404"/>
+  <testcase name="testSearchVDRByStatusFlow" classname="org.fwcms.cdc.vdr.VDRApplicationStatusTest" time="62.592"/>
+</testsuite>

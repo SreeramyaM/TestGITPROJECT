@@ -1,0 +1,19 @@
+[
+	{
+		"kdnMinCharData":"as",
+		"kdnInvalidData":"qw#",
+		"kdnNoResultsData":"KDN/16032/FKAGP4551809",
+		"kdnValidData":"KDN/16031/FKAGP4551809",
+		"agentIdInvalidData":"TestAgency",
+		"agentIdValidData":"NepalTestAgency",
+		"passportNumberSpaceData":" ",
+		"passportNumberSpecialCharData":"qw!",
+		"passportNumberValidData":"PN7004",
+		"searchWorkerSpaceData":" ",
+		"searchWorkerMinCharData":"qw",
+		"searchWorkerSpecialCharData":"qw@",
+		"sourceEmbassyInvalidData":"test",
+		"workerPointOfEntryInvalidData":"test"
+		
+	}
+]

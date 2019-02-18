@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="vdrVerificationAndValidation" parallel="false">
+  <test name="Fetch ApplicationID and Abort test3">
+		<classes>
+			<class name="org.fwcms.cdc.vdr.FetchApplicationIDUsingPassportNumberAndAbortIt"></class>
+		</classes>
+	</test> 
+    <test name="VDR Functionalities">
+		<classes>
+			<class name="org.fwcms.cdc.vdr.VDRAbortFunctionalityTest"></class>
+			<class name="org.fwcms.cdc.vdr.VDRClearListFunctionalityTest"></class>
+			<class name="org.fwcms.cdc.vdr.VerifyLandingPageOfAddMoreWorkersLinkTest"></class>
+			<class name="org.fwcms.cdc.vdr.VDRDeleteWorkersFunctionalityTest"></class>
+			<class name="org.fwcms.cdc.vdr.VDREditSourceCountryEmbassyFunctionalityTest"></class>
+			<class name="org.fwcms.cdc.vdr.VDRPreviousButtonFunctionalityTest"></class>
+		</classes>
+	</test>
+	  <test name="Fetch ApplicationID and Abort test4">
+		<classes>
+			<class name="org.fwcms.cdc.vdr.FetchApplicationIDUsingPassportNumberAndAbortIt"></class>
+		</classes>
+	</test> 
+	<test name="VDR Verification And Validation">
+		<classes>
+			<class name="org.fwcms.cdc.vdr.VerifyAccessToPreviouslySavedApplicationTest"></class>
+			<class name="org.fwcms.cdc.vdr.VerifyElementsPresentInVDRPagesTest"></class>
+			<class name="org.fwcms.cdc.vdr.VDRVerificationAndValidationTest"></class>
+		</classes>
+	</test>
+	  <test name="Fetch ApplicationID and Abort test5">
+		<classes>
+			<class name="org.fwcms.cdc.vdr.FetchApplicationIDUsingPassportNumberAndAbortIt"></class>
+		</classes>
+	</test> 
+	<test name="VDR CSV Upload Verifications">
+		<classes>
+			<class name="org.fwcms.cdc.vdr.VerifyCSVUploadOfMoreThan100WorkersTest"></class>
+			<class name="org.fwcms.cdc.vdr.VerifyInvalidDataCSVUploadTest"></class>
+			<class name="org.fwcms.cdc.vdr.VerifyCSVUploadWorkersVerificationTest"></class>
+			<class name="org.fwcms.cdc.vdr.VerifyQuotaExceededTest"></class>
+			<class name="org.fwcms.cdc.vdr.VDRWorkerDetailsErrorMessageValidationTest"></class>
+		</classes>
+	</test>
+</suite>

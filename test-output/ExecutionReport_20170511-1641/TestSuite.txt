@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 130.666 sec <<< FAILURE! - in TestSuite
+testVDRFlowForAllCountry(org.fwcms.cdc.vdr.VDRAllCountrySubmissionTest)  Time elapsed: 56.524 sec  <<< FAILURE!
+java.io.FileNotFoundException: C:\DownloadITR\Transaction_Ids_1494492134419.csv (The system cannot find the file specified)
+	at org.fwcms.cdc.vdr.VDRAllCountrySubmissionTest.testVDRFlowForAllCountry(VDRAllCountrySubmissionTest.java:149)
+

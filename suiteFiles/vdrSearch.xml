@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="vdrSearch" parallel="false">
+	 <test name="Fetch ApplicationID and Abort test1">
+		<classes>
+			<class name="org.fwcms.cdc.vdr.FetchApplicationIDUsingPassportNumberAndAbortIt"></class>
+		</classes>
+	</test> 
+    <test name="Search VDR By Application Id And Kdn">
+		<classes>
+			<class name="org.fwcms.cdc.vdr.SearchVDRTest"></class>
+		</classes>
+	</test> 
+	 <test name="Fetch ApplicationID and Abort test2">
+		<classes>
+			<class name="org.fwcms.cdc.vdr.FetchApplicationIDUsingPassportNumberAndAbortIt"></class>
+		</classes>
+	</test>
+	<test name="Search VDR By Application Status">
+		<classes>
+			<class name="org.fwcms.cdc.vdr.VDRApplicationStatusTest"></class>
+		</classes>
+	</test>
+</suite>

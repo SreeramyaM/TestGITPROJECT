@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="130.666" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\bin"/>
+    <property name="java.vm.version" value="24.65-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="MY"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\QA1\Desktop\Ramya\Test\FWCMSeVDR"/>
+    <property name="java.runtime.version" value="1.7.0_67-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\QA1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\WORKSPACE\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8636434633400438955.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_67\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Maven\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.7.0_67\bin;C:\Program Files\Java\jre7\bin;C:\Program Files (x86)\Skype\Phone\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\QA1"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="QA1"/>
+    <property name="java.class.path" value="/C:/eclipse-jee-juno-SR1-win32-x86_64/eclipse/configuration/org.eclipse.osgi/bundles/905/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_67\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_67"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_67\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\QA1\Desktop\Ramya\Test\FWCMSeVDR\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.bootclasspath" value="/C:/eclipse-jee-juno-SR1-win32-x86_64/eclipse/configuration/org.eclipse.osgi/bundles/905/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testVDRFlowForAllCountry" classname="org.fwcms.cdc.vdr.VDRAllCountrySubmissionTest" time="56.524">
+    <failure message="C:\DownloadITR\Transaction_Ids_1494492134419.csv (The system cannot find the file specified)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: C:\DownloadITR\Transaction_Ids_1494492134419.csv (The system cannot find the file specified)
+	at org.fwcms.cdc.vdr.VDRAllCountrySubmissionTest.testVDRFlowForAllCountry(VDRAllCountrySubmissionTest.java:149)
+</failure>
+    <system-out><![CDATA[11-05-2017 16:41:06,288 [main] INFO [olo.util.PropertyReader]  - Loading /config/config.properties
+11-05-2017 16:41:06,289 [main] INFO [olo.util.PropertyReader]  - Loading /config/mail.properties
+11-05-2017 16:41:09,766 [main] INFO [olo.mailer.MailClient]  - Mail sent succesfully !!!
+11-05-2017 16:41:09,767 [main] INFO [olo.listeners.MailSuiteListener]  - Mail sent on suite start 'vdrHappyFlow'
+11-05-2017 16:41:16,419 [main] INFO [olo.initiator.DriverConfiguration]  - Setting pageLoadTimeout to 60 seconds
+11-05-2017 16:41:16,577 [main] INFO [olo.initiator.DriverConfiguration]  - Setting implicitlyWait to 60 seconds
+11-05-2017 16:41:16,586 [main] INFO [olo.initiator.DriverConfiguration]  - Trying to maximize and focus the window
+11-05-2017 16:41:16,604 [main] INFO [olo.initiator.DriverConfiguration]  - setting up browser preferences completed
+11-05-2017 16:41:16,604 [main] INFO [olo.initiator.InitiatorUtil]  - Trying to open url https://fw2.fwcms.com.my/cdc
+11-05-2017 16:41:17,925 [main] INFO [olo.initiator.InitiatorUtil]  - current url is https://fwsso2.fwcms.com.my/login?service=https%3a%2f%2ffw2.fwcms.com.my%2fcdc%2f
+11-05-2017 16:41:17,926 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution started : testVDRFlowForAllCountry
+11-05-2017 16:41:18,163 [main] INFO [fwcms.util.EmployerCredentialsProp]  - Loading credentials.properties
+11-05-2017 16:41:18,164 [main] INFO [pages.cdc.LoginPage]  - typing username 'rahima'
+11-05-2017 16:41:18,257 [main] INFO [pages.cdc.LoginPage]  - typing password 'P@ssw0rd'
+11-05-2017 16:41:18,304 [main] INFO [pages.cdc.LoginPage]  - clicking login button
+Execute with Y is/are 1
+11-05-2017 16:41:19,200 [main] INFO [cdc.vdr.HomePage]  - clicking new vdr link in sticky actions
+11-05-2017 16:41:20,535 [main] INFO [cdc.vdr.HomePage]  - clicking sticky actions
+11-05-2017 16:41:30,032 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+11-05-2017 16:41:30,047 [main] INFO [cdc.vdr.VdrDetailsPage]  - searching kdn by kdnNumber
+11-05-2017 16:41:32,429 [main] INFO [cdc.vdr.WorkerSelectionPage]  - entering agent id and verifying agent details popup
+11-05-2017 16:41:33,417 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Waiting for the auto suggest values to appear
+11-05-2017 16:41:35,880 [main] INFO [cdc.vdr.WorkerSelectionPage]  - attaching workers
+11-05-2017 16:41:44,006 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Selecting Worker Check box
+11-05-2017 16:41:44,607 [main] INFO [cdc.vdr.WorkerSelectionPage]  - clicking on download unmatched workers list
+11-05-2017 16:41:44,801 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Clicking Save Button
+11-05-2017 16:41:44,880 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Entering Source Country Embassy
+11-05-2017 16:41:46,171 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Clicking OK Button
+11-05-2017 16:41:46,263 [main] INFO [prop.cdc.vdrApplicationPageProp]  - Loading vdrApplicationPage.properties
+11-05-2017 16:41:46,264 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+11-05-2017 16:41:46,806 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Successfully saved the selected foreign Worker(s) list.' in status bar
+11-05-2017 16:41:46,824 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Successfully saved the selected foreign Worker(s) list.' equals to expectedText : 'Successfully saved the selected foreign Worker(s) list.' in element [[FirefoxDriver: firefox on WINDOWS (f9f1a4e4-45f0-4131-9c17-438ac299c680)] -> css selector: div[class^='statusBar']]
+11-05-2017 16:41:46,824 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+11-05-2017 16:41:46,899 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+11-05-2017 16:41:47,900 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+11-05-2017 16:41:47,938 [main] INFO [cdc.vdr.WorkerSelectionPage]  - Clicking CONTINUE Button
+11-05-2017 16:41:48,791 [main] INFO [cdc.vdr.WorkerPointOfEntryPage]  - typing Worker Point of Entry
+11-05-2017 16:41:50,037 [main] INFO [cdc.vdr.WorkerPointOfEntryPage]  - Clicking Save Button
+11-05-2017 16:41:50,109 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+11-05-2017 16:41:50,644 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Successfully saved the selected foreign Worker(s) list.' in status bar
+11-05-2017 16:41:50,660 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Successfully saved the selected foreign Worker(s) list.' equals to expectedText : 'Successfully saved the selected foreign Worker(s) list.' in element [[FirefoxDriver: firefox on WINDOWS (f9f1a4e4-45f0-4131-9c17-438ac299c680)] -> css selector: div[class^='statusBar']]
+11-05-2017 16:41:50,660 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+11-05-2017 16:41:50,723 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+11-05-2017 16:41:51,723 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+11-05-2017 16:41:51,748 [main] INFO [cdc.vdr.WorkerPointOfEntryPage]  - Clicking CONTINUE Button
+11-05-2017 16:41:52,530 [main] INFO [cdc.vdr.SubmitVDRPage]  - Select Declaration Check Box
+11-05-2017 16:41:52,600 [main] INFO [cdc.vdr.SubmitVDRPage]  - Verifying Nationality
+11-05-2017 16:41:52,746 [main] INFO [cdc.vdr.SubmitVDRPage]  - Clicking Submit Button
+11-05-2017 16:41:52,851 [main] INFO [cdc.vdr.SubmitVDRPage]  - verifying confirmation Pop up 
+11-05-2017 16:41:52,994 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Please ensure that you have added as many Worker(s) needed.' equals to expectedText : 'Please ensure that you have added as many Worker(s) needed.' in element [[FirefoxDriver: firefox on WINDOWS (f9f1a4e4-45f0-4131-9c17-438ac299c680)] -> css selector: span.confirm_alert>strong]
+11-05-2017 16:41:53,010 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Once submitted you will not be able to add any more Worker(s) in this VDR application.Click 'Yes' to proceed further or 'No' to cancel.' equals to expectedText : 'Once submitted you will not be able to add any more Worker(s) in this VDR application.Click 'Yes' to proceed further or 'No' to cancel.' in element [[FirefoxDriver: firefox on WINDOWS (f9f1a4e4-45f0-4131-9c17-438ac299c680)] -> css selector: p.msg_descr]
+11-05-2017 16:41:53,096 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+11-05-2017 16:41:53,635 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'You are just step away from submitting the VDR Application!
+
+Please enter the OTP sent to your registered mobile number/email address to complete the process.' in status bar
+11-05-2017 16:41:53,650 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'You are just step away from submitting the VDR Application!
+
+Please enter the OTP sent to your registered mobile number/email address to complete the process.' equals to expectedText : 'You are just step away from submitting the VDR Application!
+
+Please enter the OTP sent to your registered mobile number/email address to complete the process.' in element [[FirefoxDriver: firefox on WINDOWS (f9f1a4e4-45f0-4131-9c17-438ac299c680)] -> css selector: div[class^='statusBar']]
+11-05-2017 16:41:53,651 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+11-05-2017 16:41:53,713 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+11-05-2017 16:41:54,713 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+11-05-2017 16:41:54,749 [main] INFO [fwcms.util.DatabaseProp]  - Loading database.properties
+517632
+11-05-2017 16:41:54,917 [main] INFO [cdc.vdr.SubmitVDRPage]  - Entering the OTP
+11-05-2017 16:41:54,953 [main] INFO [cdc.vdr.SubmitVDRPage]  - Clicking OK in Confirm OTP Pop Up
+11-05-2017 16:42:01,052 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+11-05-2017 16:42:01,084 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Waiting for Generate Transaction ID button to be visible
+11-05-2017 16:42:02,104 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Clicking on Generate Transaction ID button
+11-05-2017 16:42:02,185 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+11-05-2017 16:42:02,730 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Asserting the message in ITR Generation Confirmation Pop Up
+11-05-2017 16:42:02,755 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'This VDR application will be expired on the earliest workers medical report expiry or 7 days from today whichever is earlier. Please purchase the insurance immediately or your VDR application will be deleted automatically upon expired.' equals to expectedText : 'This VDR application will be expired on the earliest workers medical report expiry or 7 days from today whichever is earlier. Please purchase the insurance immediately or your VDR application will be deleted automatically upon expired.' in element [[FirefoxDriver: firefox on WINDOWS (f9f1a4e4-45f0-4131-9c17-438ac299c680)] -> xpath: //div[@class='vdr_itr_generation_ack_popup popups']//span[@class='confirm_alert']/strong]
+11-05-2017 16:42:02,839 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Waiting for Generate Transaction ID button to be visible
+11-05-2017 16:42:03,867 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Clicking on Generate Transaction ID button
+11-05-2017 16:42:03,932 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Waiting for I Understand button to be visible
+11-05-2017 16:42:04,479 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Clicking on I Understand button
+11-05-2017 16:42:04,586 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - verifying the elements present in purchase insurance options pop up
+11-05-2017 16:42:04,806 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Waiting for Generate Transaction ID button to be visible
+11-05-2017 16:42:05,848 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Clicking on Generate Transaction ID button
+11-05-2017 16:42:05,919 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Waiting for I Understand button to be visible
+11-05-2017 16:42:06,465 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Clicking on I Understand button
+11-05-2017 16:42:06,538 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - selecting an insurance purchase option
+11-05-2017 16:42:06,607 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - clicking on proceed in purchase insurance options pop up
+11-05-2017 16:42:06,670 [main] INFO [fwcms.pages.CommonElements]  - waiting for status bar to be visible
+11-05-2017 16:42:07,213 [main] INFO [fwcms.pages.CommonElements]  - verifying expected text :'Insurance Transaction Reference have been successfully generated' in status bar
+11-05-2017 16:42:07,243 [main] INFO [olo.bot.BrowserBot]  - Comparing elementText : 'Insurance Transaction Reference have been successfully generated' equals to expectedText : 'Insurance Transaction Reference have been successfully generated' in element [[FirefoxDriver: firefox on WINDOWS (f9f1a4e4-45f0-4131-9c17-438ac299c680)] -> css selector: div[class^='statusBar']]
+11-05-2017 16:42:07,243 [main] INFO [fwcms.pages.CommonElements]  - closing status bar
+11-05-2017 16:42:07,304 [main] INFO [fwcms.pages.CommonElements]  - sleeping for 1 sec
+11-05-2017 16:42:08,305 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+11-05-2017 16:42:08,334 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Waiting for Proceed button to be visible
+11-05-2017 16:42:08,346 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - Clicking on Proceed button
+11-05-2017 16:42:08,418 [main] INFO [fwcms.pages.CommonElements]  - waiting for loading message to disappear
+11-05-2017 16:42:09,393 [main] INFO [cdc.vdr.PurchaseInsurancePage]  - verifying if thank you message is displayed on clicking on proceed button
+Transaction_Ids_1494492134419.csv
+C:\DownloadITR\Transaction_Ids_1494492134419.csv
+Error
+11-05-2017 16:42:14,421 [main] INFO [olo.listeners.InvokedMethodListener]  - Test execution completed : testVDRFlowForAllCountry
+11-05-2017 16:42:14,430 [main] INFO [olo.listeners.InvokedMethodListener]  - Test status : testVDRFlowForAllCountry : FAIL
+]]></system-out>
+  </testcase>
+  <testcase name="testVDRFlow" classname="org.fwcms.cdc.vdr.VDRManualEntryHappyFlowTest" time="48.626"/>
+</testsuite>
